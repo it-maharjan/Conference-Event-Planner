@@ -33,7 +33,7 @@ export const venueSlice = createSlice({
       name: "Small Meeting Room (Capacity:5)",
       cost: 1100,
       quantity: 0,
-    },
+    },  
   
   ],
   reducers: {
@@ -56,5 +56,4 @@ export const venueSlice = createSlice({
 });
 
 export const { incrementQuantity, decrementQuantity } = venueSlice.actions;
-
 export default venueSlice.reducer;
